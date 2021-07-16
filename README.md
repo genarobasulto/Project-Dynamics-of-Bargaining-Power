@@ -1,7 +1,7 @@
 # Project: Dynamics of Bargaining Power
 This is the repository for the project Dynamics of Bargaining Power. 
 
-All the numeric excercises made with the Julia languaje will be upload here.
+All the numeric excercises made with the Julia languaje will be uploaded here.
 
 Here is a gif created for the project:
 
