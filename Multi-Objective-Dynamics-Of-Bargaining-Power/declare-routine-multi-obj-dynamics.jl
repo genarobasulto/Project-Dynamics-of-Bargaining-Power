@@ -77,7 +77,7 @@ function Dynamic_Pareto_Frontier(Deltas, n, V, VF, U0, UF, digits_tol, Max_iter,
         end
         
         iter+=1 #Update iteration counter
-        #println(iter) #Print current iteration 
+        println(iter) #Print current iteration 
         
         if iter == Max_iter #If number of iteration reaches max, finish the method.
             break

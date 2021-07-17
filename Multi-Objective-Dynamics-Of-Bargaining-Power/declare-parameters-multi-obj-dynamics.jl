@@ -4,7 +4,7 @@ f = [2/3 1/3; 1/3 2/3]    # Probability matrix  [yh|ah yl|ah; yh|al yl|al]
 beta = 0.96    # Future discount factor
 h = 0.5 #Risk AdversionParameter for agent utility 
 digits_tol = 3 #Digits of precision 
-Max_iter = 300 #Limit of method iterations
+Max_iter = 250 #Limit of method iterations
 dl = min_delta(h) #Min bargaining power
 dh = max_delta(h) #Max bargaining power
 println("Feasible Bargaining Powers: ", dl, ", ", dh)
