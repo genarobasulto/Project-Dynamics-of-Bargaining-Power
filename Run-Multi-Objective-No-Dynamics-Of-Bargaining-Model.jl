@@ -6,4 +6,4 @@ include("Multi-Objective-No-Dynamics-Of-Bargaining-Power\\declare-feasible-barga
 include("Multi-Objective-No-Dynamics-Of-Bargaining-Power\\declare-parameters-multi-obj-no-dynamics.jl")
 include("Multi-Objective-No-Dynamics-Of-Bargaining-Power\\declare-routine-multi-obj-no-dynamics.jl")
 
-DataEstPoint_MOWS = Dynamic_Pareto_Frontier(Deltas, n, V, VF, U0, UF, digits_tol, Max_iter, h) 
+Est_point = Dynamic_Pareto_Frontier(Deltas, n, V, VF, U0, UF, digits_tol, Max_iter, h) 
